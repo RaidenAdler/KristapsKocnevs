@@ -1,0 +1,13 @@
+body {
+    background-image: url("../Images/background.png");
+}
+.regularimg {
+    height: 512px;
+    width: 512px;
+}
+.bigtext {
+    font-size: 60px;
+}
+.center {
+    text-align: center;
+}
