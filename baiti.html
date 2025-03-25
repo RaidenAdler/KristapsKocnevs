@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formas</title>
+</head>
+<body>
+	<form>
+	<p>Aprēķināt cik daudz informācijas var lejuplādēt <input name="sekundes" onclick="sekundes.value=null;atbilde.value=null;radi.disabled=true">sekundēs, ja interneta ātrums ir 25 Mbps.</p>
+	<p>Atbilde</p>
+	<p><input name="atbilde"><input type="radio" name="radi" onclick="atbilde.value = sekundes.value * 25 * 976.5625">KiB<input type="radio" name="radi" onclick="atbilde.value = sekundes.value * 25 * 1000">KB</p>
+	</form>
+</body>
+</html>
